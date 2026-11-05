@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "lemonmodz",
+	"version": "${version}",
+	"name": "LemonModz",
+	"description": "FPS/coordinates/mace damage HUD and a mace swap key. Toggle with /burfey on|off.",
+	"authors": ["LemonModz"],
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.lemonmodz.client.LemonModzClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
